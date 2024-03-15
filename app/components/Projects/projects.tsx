@@ -2,7 +2,7 @@
 
 import React from "react";
 import SectionHeading from "../section-heading";
-import { projectsData, addnprojectsData } from "@/lib/data";
+import { projectsData, addnProjectsData } from "@/lib/data";
 import Project from "./project";
 import { useSectionInView } from "@/lib/hooks";
 import {
@@ -63,7 +63,7 @@ export default function Projects() {
           
         
           <CarouselContent>
-          {addnprojectsData.map((addnproject, index) => (
+          {addnProjectsData.map((addnproject, index) => (
             <CarouselItem key={index} className="md:basis-1 lg:basis-1/2">
             <Project {...addnproject} />
             </CarouselItem>

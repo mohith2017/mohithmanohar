@@ -235,7 +235,7 @@ export const projectsData = [
   },
 ] as const;
 
-export const addnprojectsData = [
+export const addnProjectsData = [
   {
     title: "My PortFolio",
     description:
