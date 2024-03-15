@@ -5,14 +5,13 @@ import SectionHeading from "../section-heading";
 import { projectsData } from "@/lib/data";
 import Project from "./project";
 import { useSectionInView } from "@/lib/hooks";
-import styles from "./projects.module.css"
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-} from "@/components/ui/carousel"
+} from "@/app/components/ui/carousel"
 
 export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);

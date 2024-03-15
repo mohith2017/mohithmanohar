@@ -14,7 +14,7 @@ import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from "@/components/ui/hover-card"
+} from "@/app/components/ui/hover-card"
 
 export default function Intro() {
   const { ref } = useSectionInView("Mohith", 0.5);
