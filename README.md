@@ -1,7 +1,7 @@
 # Mohith Manohar's Portfolio
 
 ## About me
-My portfolio as an AI/ML and Full stack developer with 3+ years of experience and a MS in Computer Science from Columbia University.
+My portfolio as an AI/ML and Full stack developer with 3+ years of experience and a MS in Computer Science from Columbia University. Inspired by [ByteGrad](https://github.com/ByteGrad/portfolio-website)
 
 ## Other important links:
 - [Linkedin](https://linkedin.com/in/mohithmanoharcu)
