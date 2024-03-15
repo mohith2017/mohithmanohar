@@ -50,6 +50,7 @@ export default function Experience() {
                 theme === "light" ? "white" : "rgba(255, 255, 255, 0.15)",
               fontSize: "1.5rem",
             }} 
+            key={index}
             >
               
                 <Accordion type="single" collapsible className="w-full" 
