@@ -11,6 +11,9 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
+  basePath: "/portfolio",
+  output: "export",  
+  reactStrictMode: true,
 };
 
 module.exports = nextConfig;
