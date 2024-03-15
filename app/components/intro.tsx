@@ -80,9 +80,8 @@ export default function Intro() {
         <span className="font-bold"> Mohith.</span> I am a{" "}
         Software Engineer with a unique blend of{" "}
         <span className="font-bold">AI/ML, Gen AI and Full Stack</span> experience{" "}
-        <span className="font-bold">for 3+ years</span>. I frequent with
-        <span className="font-bold"> Python, React(Next.js) - JS/TS and Java </span>.
-        <br/><br/>I enjoy building <span className="italic">products(websites, apps, models, pipelines) from start to finish</span>. 
+        <span className="font-bold">for 3+ years</span>. I enjoy building products end to end using{" "}
+        <span className="font-bold"> Python, JavaScript/TypeScript and Java </span>. 
         
         <span className="underline"></span>
         
@@ -135,18 +134,8 @@ export default function Intro() {
         </a>
 
         <div className="flex justify-end">
-        <HoverCard>
-          <HoverCardTrigger asChild>
-        <BlinkedBox />
-        </HoverCardTrigger>
-        <HoverCardContent className="w-80">
-             {/* Change this for updating interviewing stage */}
-             <p className="text-sm" onClick={handleClick}>
-             <h4 className="text-sm font-semibold">Actively Interviewing at mid stages!!</h4>
-              Updated: 15 Mar '24
-            </p>      
-        </HoverCardContent>
-        </HoverCard>
+        <BlinkedBox className="text-xs text-white" onClick={handleClick} > <div className="mt-2" >Click Me!</div></BlinkedBox>
+        
 
         </div>
       </motion.div>

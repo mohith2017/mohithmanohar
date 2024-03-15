@@ -29,7 +29,7 @@ export default function Projects() {
         </a>
 
     <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
-      <SectionHeading>My projects</SectionHeading>
+      <SectionHeading>Open Source projects</SectionHeading>
       
       <div>
       <Carousel
@@ -52,7 +52,6 @@ export default function Projects() {
       </div>
 
       <div className="mt-12"></div>
-      <SectionHeading>Hobby projects</SectionHeading>
       <div>
         <Carousel
         opts={{

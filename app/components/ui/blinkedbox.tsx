@@ -8,8 +8,8 @@ const blink = keyframes`
 
 const BlinkedBox = styled('div')({
   backgroundColor: 'green',
-  width: 30,
-  height: 30,
+  width: 50,
+  height: 50,
   borderRadius: '50%',
   animation: `${blink} 5s linear infinite`,
 });
