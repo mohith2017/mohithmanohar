@@ -31,14 +31,14 @@ export default function About() {
 
         <br/><br/> 
         I'm always excited to build new products that impact people. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a <span className="font-bold text-green-700">Software
+        full-time position as a <span className="font-bold text-green-700">Software
         Engineer.</span>
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy hiking,
         going to the museum, watching movies, and playing video games. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
+        learning new things. I am currently
         learning about VisionOS based development{" "}
         <span className="font-medium">history and philosophy</span>. I also play the keyboard and basketball on the side.
       </p>
