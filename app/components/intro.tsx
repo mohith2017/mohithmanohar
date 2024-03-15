@@ -10,6 +10,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { BlinkedBox } from "./ui/blinkedbox";
+import toast from "react-hot-toast";
 import {
   HoverCard,
   HoverCardContent,
@@ -20,6 +21,12 @@ export default function Intro() {
   const { ref } = useSectionInView("Mohith", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
   const today = new Date();
+
+  function handleClick(): void {
+
+    //Change this for updating interviewing stage
+    toast.success("Actively interviewing in mid stages!! \n Updated: Mar 15, 2024");
+  }
 
   return (
     <section
@@ -73,8 +80,9 @@ export default function Intro() {
         <span className="font-bold"> Mohith.</span> I am a{" "}
         Software Engineer with a unique blend of{" "}
         <span className="font-bold">AI/ML, Gen AI and Full Stack</span> experience{" "}
-        <span className="font-bold">for 3+ years</span>. I enjoy
-        building <span className="italic">products(websites, apps, models, pipelines) from start to finish</span>. 
+        <span className="font-bold">for 3+ years</span>. I frequent with
+        <span className="font-bold"> Python, React(Next.js) - JS/TS and Java </span>.
+        <br/><br/>I enjoy building <span className="italic">products(websites, apps, models, pipelines) from start to finish</span>. 
         
         <span className="underline"></span>
         
@@ -132,7 +140,8 @@ export default function Intro() {
         <BlinkedBox />
         </HoverCardTrigger>
         <HoverCardContent className="w-80">
-             <p className="text-sm">
+             {/* Change this for updating interviewing stage */}
+             <p className="text-sm" onClick={handleClick}>
              <h4 className="text-sm font-semibold">Actively Interviewing at mid stages!!</h4>
               Updated: 15 Mar '24
             </p>      

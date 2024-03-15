@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import SectionHeading from "./section-heading";
 import {
   VerticalTimeline,
@@ -58,7 +59,15 @@ export default function Experience() {
                 <AccordionItem value="item-1" >
                   <AccordionTrigger >
 
+
+                  <div className="flex flex-col justify-start gap-4 mr-8">
+                  <Image src={item.logo} width="50" height="50" alt="Company logo" />
+                  <h1>{item.company}</h1>          
+                  </div>
+
                   <div className="flex flex-col">
+                    
+                 
                     <h3 className="font-semibold capitalize">{item.title}</h3>
                     <p className="font-normal !mt-0">{item.location}</p>
                     <p className="!font-normal text-gray-700 dark:text-white/75 !mb-4">
