@@ -7,9 +7,9 @@ export default function Footer() {
         Built with &hearts; by Mohith Manohar
       </small>
       <p className="text-xs">
-        <span className="font-semibold">About this website:</span> built with
+        <span className="font-semibold">About this website: </span> built with
         React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS,
-        Framer Motion, React Email & Resend, Vercel hosting.
+        Framer Motion, React Email & Resend, Vercel hosting. Inspired by ByteGrad.
       </p>
     </footer>
   );

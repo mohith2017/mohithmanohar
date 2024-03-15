@@ -40,7 +40,7 @@ export default function About() {
         going to the museum, watching movies, and playing video games. I also enjoy{" "}
         learning new things. I am currently
         learning about VisionOS based development{" "}
-        <span className="font-medium">history and philosophy</span>. I also play the keyboard and basketball on the side.
+        history and philosophy. I also play the keyboard and basketball on the side.
       </p>
     </motion.section>
   );
