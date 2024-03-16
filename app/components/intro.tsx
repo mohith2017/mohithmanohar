@@ -83,7 +83,7 @@ export default function Intro() {
         <span className="font-bold"> Mohith.</span> I am a{" "}
         Software Engineer with a unique blend of{" "}
         <span className="font-bold">AI/ML, Gen AI and Full Stack</span> experience{" "}
-        <span className="font-bold">for 3+ years</span>. I enjoy building products end to end using{" "}
+        . I enjoy building products end to end using{" "}
         <span className="font-bold"> Python, JavaScript/TypeScript and Java </span>. 
         
         <span className="underline"></span>
