@@ -25,14 +25,14 @@ export default function Intro() {
   function handleClick(): void {
 
     //Change this for updating interviewing stage
-    toast.success("Actively interviewing in mid stages!! \n Updated: Mar 15, 2024");
+    toast.success("Actively interviewing in initial stages at a few companies! \n Updated: Mar 15, 2024");
   }
 
   return (
     <section
       ref={ref}
       id="home"
-      className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+      className=" mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -44,6 +44,7 @@ export default function Intro() {
               duration: 0.2,
             }}
           >
+            
             <Image
               src="https://i.postimg.cc/655kg0fy/IMG-7471.jpg"
               alt="Mohith portrait"
@@ -71,6 +72,8 @@ export default function Intro() {
         </div>
       </div>
 
+      <div className="flex justify-center items-center text-sm text-gray-500 font-bold">Mobile friendly version coming soon</div>
+      
       <motion.h1
         className="mb-10 mt-4 px-2 text-xl font-medium !leading-[1.5] sm:text-3xl"
         initial={{ opacity: 0, y: 100 }}
@@ -110,7 +113,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/Mohith_Manohar.pdf"
+          href="/Mohith_Manohar_Master.pdf"
           download
         >
           Resume{" "}
@@ -134,7 +137,7 @@ export default function Intro() {
         </a>
 
         <div className="flex justify-end">
-        <BlinkedBox className="text-xs text-white" onClick={handleClick} > <div className="mt-2" >Click Me!</div></BlinkedBox>
+        <BlinkedBox className="text-xs text-white text-mt-4" onClick={handleClick} > Click Me</BlinkedBox>
         
 
         </div>

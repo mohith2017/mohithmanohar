@@ -13,12 +13,12 @@ import {
   CarouselPrevious,
 } from "@/app/components/ui/carousel"
 import { FaGithubSquare } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
 
   return (
-    // 50% on small screens and 33% on larger screens.
     <>
     <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
@@ -38,38 +38,44 @@ export default function Projects() {
       }}
       className="w-full max-w-5xl">
       
+      <CarouselPrevious />
         <CarouselContent>
         {projectsData.map((project, index) => (
-          <CarouselItem key={index} className="md:basis-1 lg:basis-1/2" onClick={() => { window.location.href = project.githubUrl;}}>
+          <CarouselItem key={index} className="flex justify-center items-center md:flex-col md:basis-1 lg:basis-1/2" onClick={() => { window.location.href = project.githubUrl;}}>
           <Project {...project} />
           </CarouselItem>
           ))}
           
         </CarouselContent>
-        <CarouselPrevious />
+        
        <CarouselNext />
       </Carousel>
       </div>
 
-      <div className="mt-12"></div>
+    
+
+      <div className="mt-12"> </div>
+
+        
+    
       <div>
         <Carousel
         opts={{
-          align: "end",
+          align: "center",
         }}
         className="w-full max-w-5xl">
 
           
-        
+        <CarouselPrevious />
           <CarouselContent>
           {addnProjectsData.map((addnproject, index) => (
-            <CarouselItem key={index} className="md:basis-1 lg:basis-1/2">
+            <CarouselItem key={index} className="flex justify-center items-center md:flex-col md:basis-1 lg:basis-1/2" onClick={() => { window.location.href = addnproject.githubUrl;}}>
             <Project {...addnproject} />
             </CarouselItem>
             ))}
             
           </CarouselContent>
-          <CarouselPrevious />
+          
         <CarouselNext />
         </Carousel>
       </div>

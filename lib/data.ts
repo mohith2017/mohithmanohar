@@ -18,6 +18,13 @@ import llmkeywordImg from "@/public/lllmkeyword.png"
 import makeathonatriaImg from "@/public/makeathonatria.png"
 import modelcomparisonsImg from "@/public/modelcomparisons.png"
 import satelliteimageImg from "@/public/satelliteimage.jpeg"
+import treatmentrecommendationImg from "@/public/treatmentrecommendation.jpeg"
+import ctfoutputImg from "@/public/ctfoutput.png"
+import iosappImg from "@/public/iosapp.png"
+import androidappImg from "@/public/androidapp.png"
+import medicalappImg from "@/public/medicalapp.jpg"
+import sportappImg from "@/public/sportapp.png"
+import quizappImg from "@/public/quizapp.jpeg"
 
 
 export const links = [
@@ -262,8 +269,43 @@ export const projectsData = [
     githubUrl: "https://github.com/mohith2017/makeathonatria",
   },
 
+  {
+    title: "Wifi Token based React Native iOS App",
+    description:
+      "React Native Based iOS appliction to log Wifi Tokens at NSRCEL IIMB",
+    tags: ["React Native", "Ionic", "Angular", "Typescript", "FireBase", "HTML", "CSS", "JavaScript", "Xcode", "Swift", "Automation"],
+    imageUrl: iosappImg,
+    githubUrl: "https://github.com/mohith2017/NSRCELWifitoken2",
+  },
   
-  
+
+  {
+    title: "Medical Survey Android App",
+    description:
+      "Made for the Medical Department to analyze their 'Students in Villages' knowledge",
+    tags: ["Android", "Java", "FireBase", "Android Studio"],
+    imageUrl: medicalappImg,
+    githubUrl: "https://github.com/mohith2017/Student-medical",
+  },
+
+  {
+    title: "Sporting Area Finder App",
+    description:
+      "Android App to provide the details of the stadium that is free for playing of the sport to be hosted at the specific places.",
+    tags: ["Android", "Java", "FireBase", "Android Studio"],
+    imageUrl: sportappImg,
+    githubUrl: "https://github.com/mohith2017/Hackathon_pragyan/",
+  },
+
+  {
+    title: "MQuiz App",
+    description:
+      "My First Ever Project;) It is a very basic Android quiz app with the functionalities required to make it user friendly",
+    tags: ["Android", "Java", "FireBase", "Android Studio"],
+    imageUrl: quizappImg,
+    githubUrl: "https://github.com/mohith2017/Mquiz",
+  },
+ 
   
 ] as const;
 
@@ -441,6 +483,45 @@ export const addnProjectsData = [
     githubUrl: "https://github.com/mohith2017/Satellitevehicledetection_DIP_5thsem",
   },
 
+  {
+    title: "Treatment Recommendation System - ML",
+    description: 
+      "Employee Mental Based Health recommendation system based on Logistic Regression ML model ",
+    tags: [
+      "ML",
+      "Python",
+      "TensorFlow",
+      "Traditional ML",
+      "Data",
+      "ETL",
+      "SVC",
+      "LightGBM",
+      "Logistic Regression",
+      "ML infrastructure",
+      "ML on Cloud",
+      "Azure"
+     ]
+     ,
+    imageUrl: treatmentrecommendationImg,
+    githubUrl: "https://github.com/mohith2017/Treatment_Recommendation-System",
+  },
+
+  {
+    title: "CTF using Go",
+    description: 
+      "A capture the Flag contest script written using Go ",
+    tags: [
+      "Web application",
+      "Go",
+      "CTF",
+      "msgpack",
+      "Reverse Engineering"
+     ]
+     ,
+    imageUrl: ctfoutputImg,
+    githubUrl: "https://github.com/mohith2017/reverse-engineering-script-go",
+  },
+  
   
   
   
@@ -449,51 +530,76 @@ export const addnProjectsData = [
 export const skillsData = [
   
     "Python",
-    "Swift",
+    "JavaScript",
+    "TypeScript",
     "Java",
+    "Generative AI",
+    "LLM",
+    "Swift",
     "J2EE",
     "C",
     "C++",
-    "JavaScript",
-    "TypeScript",
     "Angular",
     "JSON",
+    "SQL",
     "MySQL",
     "PL/SQL",
     "PHP",
     "HTML",
     "CSS",
-    "Tailwind",
-    "MongoDB",
-    "Redux",
-    "GraphQL",
-    "Apollo",
-    "Express",
-    "PostgreSQL",
-    "Django",
-    "Framer Motion",
-    "AWS",
-    "SciKit-Learn",
-    "Keras",
-    "TensorFlow",
-    "LangChain",
-    "VSCode",
-    "Pinecone",
-    "Apache Spark",
-    "Pytorch",
-    "Generative AI",
-    "GCloud",
-    "Firebase",
-    "Git",
-    "Ionic",
-    "Next.js",
-    "Node.js",
-    "Angular.js",
-    "Flask",
-    "Android Studio",
-    "XCode",
-    "TensorFlow",
-    "Figma",
-    "PyTorch"
+    "Go"
    
+] as const;
+
+export const platformData = [
+  
+  "Android Studio",
+"Angular.js",
+"AWS",
+"CI/CD",
+"Django",
+"Docker",
+"Data ETL",
+"DataBricks",
+"Express",
+"LangChain",
+"Figma",
+"Firebase",
+"Flask",
+"Framer Motion",
+"Git",
+"Google Cloud",
+"GraphQL",
+"GPT-4",
+"HuggingFace",
+"Ionic",
+"Jupyter Notebook",
+"Keras",
+"MUI",
+"ML",
+"MongoDB",
+"Next.js",
+"NLP",
+"Node.js",
+"OpenAI",
+"OpenPipe",
+"Pinecone",
+"Payments SDK",
+"PostgreSQL",
+"PyTorch",
+"React",
+"React Native",
+"REDUX",
+"REST API",
+"SciKit-Learn",
+"Shadcn UI",
+"Stable Diffusion",
+"Tailwind",
+"TensorFlow",
+"Vercel",
+"Vue.js",
+"VSCode",
+"Vite",
+"XCode"
+ 
 ] as const;

@@ -12,6 +12,9 @@ const BlinkedBox = styled('div')({
   height: 50,
   borderRadius: '50%',
   animation: `${blink} 5s linear infinite`,
+  display: 'flex',
+ justifyContent: 'center',
+ alignItems: 'center',
 });
 
 export {BlinkedBox};
